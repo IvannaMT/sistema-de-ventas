@@ -1,0 +1,10 @@
+
+[build]
+  command = "composer install && npm run build"  # Ajusta esto según tu proceso de construcción
+ 
+
+[build.environment]
+  PHP_VERSION = "8.2"  # Cambia esto a la versión de PHP que necesitas
+
+[build.deploy]
+  # Puedes agregar configuraciones adicionales para despliegue aquí
