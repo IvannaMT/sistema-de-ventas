@@ -1,7 +1,7 @@
-
 [build]
   command = "composer install && npm run build"  # Ajusta esto según tu proceso de construcción
- 
+  publish = "public"  # Ajusta esto a la carpeta que quieras publicar
+  base = "/"
 
 [build.environment]
   PHP_VERSION = "8.2"  # Cambia esto a la versión de PHP que necesitas
